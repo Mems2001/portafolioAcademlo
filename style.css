@@ -1,0 +1,980 @@
+html {
+    background-color: var(--color-2);
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0 0 0 0;
+  }
+
+/* Variables Colores de fondo */
+:root {
+    --color-1: #0d0d0d;
+    --color-2: #191919;
+    --color-3: #262626;
+    --color-4: #333333;
+    --color-5: #6a1518;
+    --color-6: #80191c;
+    --color-7: #951d20;
+    --color-8: #ab2124;
+    --color-9: #c12428;
+    --color-10: #d7282c;
+  }
+
+/* Variables Colores de letras */
+
+:root {
+    --lcolor-1: #f2f2f2;
+    --lcolor-2: #e6e6e6;
+    --lcolor-3: #d9d9d9;
+    --lcolor-4: #cccccc;
+    --lcolor-8: #ea9595;
+    --lcolor-7: #e67f7f;
+    --lcolor-6: #e26a6a;
+    --lcolor-5: #de5454;
+    --lcolor-9: #262626;
+    --lcolor-10: #6a1518;
+}
+
+/* Colores de letras */
+
+.cl1 {
+    color: var(--lcolor-1);
+}
+
+.cl2 {
+    color: var(--lcolor-2);
+}
+
+.cl3 {
+    color: var(--lcolor-3);
+}
+
+.cl4 {
+    color: var(--lcolor-4);
+}
+
+.cl5 {
+    color: var(--lcolor-5);
+}
+
+.cl6 {
+    color: var(--lcolor-6);
+}
+
+.cl7 {
+    color: var(--lcolor-7);
+}
+
+.cl8 {
+    color: var(--lcolor-8);
+}
+
+.cl9 {
+    color: var(--lcolor-9);
+}
+
+.cl10 {
+    color: var(--lcolor-10);
+}
+
+/* Colores de fondo */
+
+.cb1 {
+    background-color: var(--color-1);
+}
+
+.cb2 {
+    background-color: var(--color-2);
+}
+
+.cb3 {
+    background-color: var(--color-3);
+}
+
+.cb4 {
+    background-color: var(--color-4);
+}
+
+.cb5 {
+    background-color: var(--color-5);
+}
+
+.cb6 {
+    background-color: var(--color-6);
+}
+
+.cb7 {
+    background-color: var(--color-7);
+}
+
+.cb8 {
+    background-color: var(--color-8);
+}
+
+.cb9 {
+    background-color: var(--color-9);
+}
+
+.cb10 {
+    background-color: var(--color-10);
+}
+
+/* Letras gruesas */
+
+.bld {
+    font-weight: 700;
+}
+
+/* Botones */
+
+.btn1 {
+ border: none;
+ height: 30px;
+ width: 150px;
+ border-radius: 25px;
+ align-content: center;
+ margin-top: 10px;
+}
+
+.btn1:hover {
+    background-color: var(--color-10);
+}
+
+/* Tarjertas */
+
+.card1 {
+    display: grid;
+    background-color:var(--color-3) ;
+    padding-top: 5px;
+    row-gap: 10px;
+    border-radius: 15px;
+}
+
+.card-body1 {
+    background-color: var(--color-5);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+}
+
+.card-body-titles {
+    text-align: center;
+    color: var(--lcolor-8);
+    font-size: 1.25rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-body-text {
+    text-align: center;
+    color: var(--lcolor-8);
+    font-size: 1rem;
+}
+
+/* FUENTES */
+
+.grande {
+    font-size: 2rem;
+}
+
+.muygrande {
+    font-size: 3rem;
+}
+
+.peque {
+    font-size: 0.75rem;
+}
+
+.normal {
+    font-size: 1.25rem;
+}
+
+/* Estilos */
+
+/* Tipos */
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    justify-self: left;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* Clases */
+
+.gcontainer {
+    /* padding-top: 15px; */
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    margin-bottom: 20px;
+    background-color: var(--color-2);
+}
+
+.mcontainer:not(#contacto):not(#formacion) {
+    display: grid;
+}
+
+.mcontainer {
+
+    padding-top: 20px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-items: center;
+    align-items:center;
+    
+}
+
+.mcontainer2 {
+
+    display: grid;
+    height: 6vh;
+    width: 100%;
+}
+
+.paraNavegacion {
+    grid-template-columns: repeat(12 , auto);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.paraNavegacion div:nth-child(1) {
+    grid-column: 7;
+}
+
+.paraHeader {
+    font-weight: bold;
+}
+
+.navegadorP {
+    display: grid;
+    background-color: var(--color-7);
+    height: 12vw;
+    width: 12vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 4;
+    border-bottom-left-radius: 7vw;
+}
+
+.fondoNav {
+    background-size:cover;
+    position: relative;
+    z-index: 5;
+    top: 10%;
+    right: -5%;
+}
+
+.presentacion {
+    height: 35vw;
+    width: 100%;
+}
+
+.presentacion div:nth-child(1) {
+    top: 10%;
+    left: 15%;
+}
+
+.presentacion div:nth-child(2) {
+    right: 15%;
+    bottom: 5%;
+}
+
+/* .presentacion div:nth-child(3) {
+    
+} */
+
+.foto {
+    height: 30vw;
+    width: 30vw;
+    background-image: url(https://www.nacionrock.com/wp-content/uploads/phil-anselmo-y-the-illegals-en-lima-e1615984091692.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 300px;
+    align-self:center;
+    justify-self:center;
+    position: relative;
+    left:0;
+    top: 0.5vw;
+}
+
+.foto:hover {
+    height: 30vw;
+    width: 30vw;
+    background-image: url(https://wikirock.net/wp-content/uploads/2020/05/14559054692_97127c648a_b-1024x641-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 300px;
+    align-self:center;
+    justify-self:center;
+    position: relative;
+    left: 0;
+}
+
+.container {
+    display: grid;
+    height: fit-content;
+}
+
+/* PADDINGS */
+
+.padd1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.padd2 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.padd3 {
+    padding-top: 10px;
+}
+
+.padd4 {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+/* BORDERS */
+
+.border1 {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.border2 {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.border4 {
+    border-radius: 30px;
+}
+
+/* MARGINS   */
+
+.margin1 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.margin2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.nmargin {
+    margin: 0;
+}
+
+.sinsb {
+    text-decoration: none;
+}
+
+.alright {
+    text-align: right;
+}
+
+/* POSICIONES */
+
+.al1 {
+    align-items: center;
+    justify-items: center;
+}
+
+.prelativa {
+    position: relative;
+}
+
+.pfija {
+    position: fixed;
+}
+
+.pabsoluta {
+    position: absolute;
+}
+
+.zind1 {
+    z-index: 1;
+}
+
+.zind2 {
+    z-index: 2;
+}
+
+.zind3 {
+    z-index: 3;
+}
+
+/* .header {
+
+} */
+
+.hdr:hover {
+    color: var(--color-10);
+}
+
+.hdr1 {
+    background-color: var(--color-2);
+    height: 6vh;
+    text-align: center;
+    line-height: 6vh;
+}
+
+.hdr1:hover {
+    background-color: var(--color-1);
+}
+
+.img1 {
+    height: 95%;
+    width: 95%;
+    align-self: center;
+    justify-self: center;
+}
+
+.img2 {
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    justify-self: center;
+}
+
+.img3 {
+    height: 35px;
+    width: 35px;
+    align-self: center;
+    justify-self: center;
+}
+
+.contacto {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-items: center;
+    grid-auto-flow: unset;
+}
+
+.contacto:nth-child(1) {
+    grid-column: 1;
+}
+
+.contacto:nth-child(2) {
+    grid-column: 2;
+}
+
+/* Identificadores */
+
+/*--------------------------------------- MEDIA QUERiES --------------------------------- */
+
+/* Dispositivos grandes (quizá 1280px) */
+
+@media screen and (max-width: 1500px) {  
+
+    .navegadorP {
+        display: none;
+        background-color: var(--color-7);
+        height: 12vw;
+        width: 12vw;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 4;
+        border-bottom-left-radius: 7vw;
+    }
+    
+    .fondoNav {
+        display: none;
+        background-size:cover;
+        position: relative;
+        z-index: 5;
+        top: 10%;
+        right: -5%;
+    }
+
+}
+
+/* --------------------------------------------Tablets------------------------------------- */
+
+@media screen and  (max-width: 1024px) {
+
+    /* TARJETAS */
+
+.card1 {
+    display: grid;
+    background-color:var(--color-3) ;
+    padding-top: 5px;
+    row-gap: 7px;
+    border-radius: 15px;
+}
+
+.card-body1 {
+    background-color: var(--color-5);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.card-body-titles {
+    text-align: center;
+    color: var(--lcolor-8);
+    font-size: 1.25rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-body-text {
+    text-align: center;
+    color: var(--lcolor-8);
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    /* FUENTES */
+
+.grande {
+    font-size: 1.75rem;
+}
+
+.muygrande {
+    font-size: 2.75rem;
+}
+
+.peque {
+    font-size: 0.75rem;
+}
+
+.normal {
+    font-size: 1rem;
+}
+
+/* TIPOS */
+
+h2 {
+    font-size: 1.5rem;
+    justify-self: left;
+    text-align: left;
+}
+
+/* CLASES */
+
+.mcontainer2 {
+
+    display: grid;
+    height: 5vw;
+    width: 100%;
+}
+
+.hdr1 {
+    background-color: var(--color-2);
+    height: 5vw;
+    text-align: center;
+    line-height: 5vw;
+}
+
+    .presentacion {
+        height: 35vw;
+        width: 100%;
+    }
+    
+    .presentacion div:nth-child(1) {
+        top: 10%;
+        left: 15%;
+    }
+    
+    .presentacion div:nth-child(2) {
+        right: 15%;
+        bottom: 5%;
+    }
+    
+    /* .presentacion div:nth-child(3) {
+        
+    } */
+    
+    .foto {
+        height: 30vw;
+        width: 30vw;
+        background-image: url(https://www.nacionrock.com/wp-content/uploads/phil-anselmo-y-the-illegals-en-lima-e1615984091692.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 300px;
+        align-self:center;
+        justify-self:center;
+        position: relative;
+        left: 0;
+        top:0vh;
+        /* bottom: 15vh; */
+    }
+    
+    .foto:hover {
+        height: 30vw;
+        width: 30wv;
+        background-image: url(https://wikirock.net/wp-content/uploads/2020/05/14559054692_97127c648a_b-1024x641-1.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 300px;
+        align-self:center;
+        justify-self:center;
+        position: relative;
+        left: 0;
+        top:0vh;
+        /* bottom: 15vh; */
+    }
+
+    .margin2 {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    } 
+
+    /* IDENTIFICADORES */
+
+    
+
+}
+
+/* Dispositivos medianos ----------------------------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+/* TARJETAS */
+
+.card1 {
+    display: grid;
+    background-color:var(--color-3) ;
+    padding-top: 5px;
+    row-gap: 7px;
+    border-radius: 15px;
+}
+
+.card-body1 {
+    background-color: var(--color-5);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.card-body-titles {
+    text-align: center;
+    color: var(--lcolor-8);
+    font-size: 0.75rem;}
+
+.card-body-text {
+    text-align: center;
+    color: var(--lcolor-8);
+    font-size: 0.75rem;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ /* FUENTES */
+
+.grande {
+    font-size: 1rem;
+}
+
+.muygrande {
+    font-size: 1.5rem;
+}
+
+.peque {
+    font-size: 0.5rem;
+}
+
+.normal {
+    font-size: 0.75rem;
+}   
+
+/* TIPOS */
+
+hr {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+/* CLASES */
+
+.presentacion div:nth-child(1) {
+    top:5%;
+    left: 5%;
+    position: absolute;
+    justify-self: left;
+}
+
+.presentacion div:nth-child(2) {
+    /* top: 0; */
+    bottom: 0;
+    right: 5%;
+    position: absolute;
+}
+
+/* .presentacion div:nth-child(3) {
+    
+} */
+
+.margin1 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.padd4 {
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+.padd2 {
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+    
+}
+
+/* Dispositivos pequeños --------------------------------------------------------------*/ 
+
+@media screen and (max-width:480px) {
+
+/* TARJETAS */
+
+.card1 {
+    display: grid;
+    background-color:var(--color-3) ;
+    padding-top: 5px;
+    row-gap: 7px;
+    border-radius: 15px;
+}
+
+.card-body1 {
+    background-color: var(--color-5);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+.card-body-titles {
+    text-align: center;
+    color: var(--lcolor-8);
+    font-size: 0.75rem;}
+
+.card-body-text {
+    text-align: center;
+    color: var(--lcolor-8);
+    font-size: 0.75rem;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+    /* FUENTES */
+
+.grande {
+    font-size: 1.25rem;
+}
+
+.muygrande {
+    font-size: 1.75rem;
+}
+
+.peque {
+    font-size: 0.25rem;
+}
+
+.normal {
+    font-size: 0.75rem;
+}
+
+/* TIPOS */
+
+hr {
+    margin: 0%;
+}
+
+h2 {
+    font-size: 1rem;
+    justify-self: center;
+    text-align: center;
+}
+
+/* CLASES */
+
+    .navegadorP {
+    display: grid;
+    background-color: var(--color-1);
+    height: 12vw;
+    width: 12vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 4;
+    border-bottom-left-radius: 6vw;
+    }
+
+    .fondoNav {
+    display: grid;
+    grid-template-rows: repeat (5 auto);
+    position: relative;
+    z-index: 5;
+    height: 70%;
+    width: 70%;
+    top: 15%;
+    right: 15%;
+    justify-self: right;
+
+    }
+
+    .fondoNav div:nth-child(1) {
+        background-color: var(--color-8);
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        justify-self: right;
+        width: 100%;
+        height: 100%;
+    }
+
+    .fondoNav div:nth-child(3) {
+        background-color: var(--color-8);
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        justify-self: right;
+        width: 70%;
+        height: 100%;
+    }
+
+    .fondoNav div:nth-child(5) {
+        background-color: var(--color-8);
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        justify-self: right;
+        width: 40%;
+        height: 100%;
+    }
+
+    .presentacion {
+        height: 68vh;
+        width: 100%;
+    }
+    
+    .presentacion div:nth-child(1) {
+        top: 0vh;
+        left: 0;
+        position: relative;
+        justify-self: left;
+    }
+    
+    .presentacion div:nth-child(2) {
+        top: 39vh;
+        left: 0%;
+        position: relative;
+    }
+    
+    /* .presentacion div:nth-child(3) {
+        
+    } */
+
+    .contacto {
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+        justify-items: center;
+        grid-auto-flow: unset;
+        row-gap: 10px;
+    }
+    
+    .contacto:nth-child(1) {
+        grid-row: 1;
+    }
+    
+    .contacto:nth-child(2) {
+        grid-row: 2;
+    }
+    
+    .foto {
+        height: 40vh;
+        width: 40vh;
+        background-image: url(https://www.nacionrock.com/wp-content/uploads/phil-anselmo-y-the-illegals-en-lima-e1615984091692.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 300px;
+        align-self:center;
+        justify-self:center;
+        position: relative;
+        left: 0;
+        top: -14vh;
+        /* bottom: 15vh; */
+    }
+    
+    .foto:hover {
+        height: 40vh;
+        width: 40vh;
+        background-image: url(https://wikirock.net/wp-content/uploads/2020/05/14559054692_97127c648a_b-1024x641-1.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 300px;
+        align-self:center;
+        justify-self:center;
+        position: relative;
+        left: 0;
+        top:-14vh;
+        /* bottom: 15vh; */
+       
+    }
+
+    .img2 {
+        height: 70px;
+        width: 70px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .padd2 {
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+
+    .padd4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .margin1 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .margin2 {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    /* IDENTIFICADORES */
+
+#navegacion {
+    display: none;
+}
+    
+}
+
+
