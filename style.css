@@ -827,7 +827,7 @@ h2 {
 
 /* Dispositivos pequeños --------------------------------------------------------------*/ 
 
-@media screen and (max-width:200px) {
+@media screen and (max-width:560px) {
 
 /* TARJETAS */
 
