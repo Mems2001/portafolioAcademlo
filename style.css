@@ -239,7 +239,7 @@ p {
 .mcontainer2 {
 
     display: grid;
-    height: 6vh;
+    height: 50px;
     width: 100%;
 }
 
@@ -437,9 +437,9 @@ p {
 
 .hdr1 {
     background-color: var(--color-2);
-    height: inherit;
+    height: 50px;
     text-align: center;
-    line-height: 6vh;
+    line-height: 50px;
     transition: all 0.2s ease-in-out;
     
 }
@@ -451,7 +451,7 @@ p {
     width: 80%;
     align-self: center;
     justify-self: center;
-    line-height: 350%;
+    line-height: 40px;
 }
 
 .img1 {
@@ -649,18 +649,26 @@ h2 {
 
 /* CLASES */
 
+.mcontainer {
+    padding-top: 35px;
+}
+
 .mcontainer2 {
 
     display: grid;
-    height: 5vw;
+    height: 45px;
     width: 100%;
 }
 
 .hdr1 {
     background-color: var(--color-2);
-    height: 5vw;
+    height: 45px  ;
     text-align: center;
-    line-height: 5vw;
+    line-height: 45px;
+}
+
+.hdr1:hover {
+    line-height: 35px;
 }
 
     .presentacion {
