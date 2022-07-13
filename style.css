@@ -827,7 +827,7 @@ h2 {
 
 /* Dispositivos pequeños --------------------------------------------------------------*/ 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:400px) {
 
 /* TARJETAS */
 
@@ -895,14 +895,14 @@ h2 {
 
     .navegadorP {
     display: grid;
-    background-color: var(--color-1);
+    background-color: var(--color-5);
     height: 12vw;
     width: 12vw;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 4;
-    border-bottom-left-radius: 6vw;
+    border-bottom-left-radius: 10vw;
     }
 
     .fondoNav {
@@ -910,8 +910,8 @@ h2 {
     grid-template-rows: repeat (5 auto);
     position: relative;
     z-index: 5;
-    height: 70%;
-    width: 70%;
+    height: 60%;
+    width: 60%;
     top: 15%;
     right: 15%;
     justify-self: right;
@@ -919,7 +919,7 @@ h2 {
     }
 
     .fondoNav div:nth-child(1) {
-        background-color: var(--color-8);
+        background-color: var(--lcolor-3);
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
         justify-self: right;
@@ -928,7 +928,7 @@ h2 {
     }
 
     .fondoNav div:nth-child(3) {
-        background-color: var(--color-8);
+        background-color: var(--lcolor-3);
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
         justify-self: right;
@@ -937,7 +937,7 @@ h2 {
     }
 
     .fondoNav div:nth-child(5) {
-        background-color: var(--color-8);
+        background-color: var(--lcolor-3);
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
         justify-self: right;
