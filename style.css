@@ -842,6 +842,13 @@ h2 {
     padding-left: 7vw;
     padding-right: 7vw;
 }
+
+/* Divs Internos */
+
+.hdr1 {
+    height: 45px;
+    line-height: 45px;
+}
     
 }
 
