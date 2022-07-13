@@ -199,6 +199,11 @@ html {
 
 /* Tipos */
 
+section {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
 h2 {
     font-size: 1.75rem;
     font-weight: bold;
