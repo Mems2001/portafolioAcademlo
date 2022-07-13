@@ -313,6 +313,7 @@ p {
     position: relative;
     left:0;
     top: 0.5vw;
+    transition: all 0.3s ease-in-out;
 }
 
 .foto:hover {
