@@ -395,6 +395,12 @@ p {
     text-align: right;
 }
 
+/* SHADOWS */
+
+.shad {
+    box-shadow:0vw .5vw 1vw var(--color-5);
+}
+
 /* POSICIONES */
 
 .al1 {
