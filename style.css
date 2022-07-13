@@ -543,7 +543,7 @@ p {
 
 /* Dispositivos grandes (quizá 1280px) */
 
-@media screen and (max-width: 2000px) {  
+@media screen and (max-width: 1280px) {  
 
     .navegadorP {
         display: none;
@@ -568,9 +568,9 @@ p {
 
 }
 
-/* --------------------------------------------Tablets (antes 1024)------------------------------------- */
+/* --------------------------------------------Tablets (antes 1280)------------------------------------- */
 
-@media screen and  (max-width: 1280px) {
+@media screen and  (max-width: 1024px) {
 
     /* TARJETAS */
 
@@ -720,9 +720,9 @@ h2 {
 
 }
 
-/* Dispositivos medianos (antes 767)----------------------------------------------------------------------*/
+/* Dispositivos medianos (antes 1024)----------------------------------------------------------------------*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
 
 /* TARJETAS */
 
@@ -825,9 +825,9 @@ h2 {
     
 }
 
-/* Dispositivos pequeños (antes 480)--------------------------------------------------------------*/ 
+/* Dispositivos pequeños (antes 767)--------------------------------------------------------------*/ 
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:480px) {
 
 /* TARJETAS */
 
