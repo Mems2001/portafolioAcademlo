@@ -263,7 +263,7 @@ p {
 }
 
 .navegadorP {
-    display: grid;
+    display: none;
     background-color: var(--color-7);
     height: 12vw;
     width: 12vw;
@@ -427,6 +427,10 @@ p {
 
 /* DIVS INTERNOS */
 
+.hdr {
+    transition: all 0.2s ease-in-out;
+}
+
 .hdr:hover {
     color: var(--color-10);
 }
@@ -436,10 +440,18 @@ p {
     height: 6vh;
     text-align: center;
     line-height: 6vh;
+    transition: all 0.2s ease-in-out;
+    
 }
 
 .hdr1:hover {
     background-color: var(--color-1);
+    border-radius: 20px;
+    height: 80%;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    line-height: 350%;
 }
 
 .img1 {
