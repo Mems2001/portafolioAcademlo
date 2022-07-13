@@ -274,6 +274,14 @@ p {
     border-bottom-left-radius: 7vw;
 }
 
+.menuP {
+    display: none;
+}
+
+.fondoMenuP {
+    display: none;
+}
+
 .fondoNav {
     background-size:cover;
     position: relative;
@@ -988,7 +996,7 @@ h2 {
     }
 
     .menuP {
-        display: initial;
+        display: block;
         background-color: var(--color-5);
         height: 11vw;
         width: 11vw;
@@ -1001,7 +1009,7 @@ h2 {
     }
 
     .fondoMenuP {
-        display: initial;
+        display: block;
         background-color: var(--color-5);
         height: 11vw;
         width: 11vw;
