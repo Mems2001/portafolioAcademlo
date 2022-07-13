@@ -302,11 +302,11 @@ p {
 
 .presentacion div:nth-child(1) {
     top: 10%;
-    left: 15%;
+    left: 10%;
 }
 
 .presentacion div:nth-child(2) {
-    right: 15%;
+    right: 10%;
     bottom: 5%;
 }
 
@@ -315,23 +315,23 @@ p {
 } */
 
 .foto {
-    height: 30vw;
-    width: 30vw;
+    height: 25vw;
+    width: 25vw;
     background-image: url(https://www.nacionrock.com/wp-content/uploads/phil-anselmo-y-the-illegals-en-lima-e1615984091692.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 300px;
+    border-radius: 50%;
     align-self:center;
     justify-self:center;
     position: relative;
     left:0;
-    top: 0.5vw;
+    top: 0vw;
     transition: all 0.3s ease-in-out;
 }
 
 .foto:hover {
-    height: 30vw;
-    width: 30vw;
+    height: 25vw;
+    width: 25vw;
     background-image: url(https://wikirock.net/wp-content/uploads/2020/05/14559054692_97127c648a_b-1024x641-1.jpg);
     background-size: cover;
     background-position: center;
@@ -340,6 +340,7 @@ p {
     justify-self:center;
     position: relative;
     left: 0;
+    top:0;
 }
 
 .container {
@@ -350,8 +351,8 @@ p {
 /* PADDINGS */
 
 .padd1 {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .padd2 {
@@ -364,8 +365,8 @@ p {
 }
 
 .padd4 {
-    padding-left: 8vw;
-    padding-right: 8vw;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 /* BORDERS */
