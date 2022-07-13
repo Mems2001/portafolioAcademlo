@@ -943,7 +943,7 @@ h2 {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 4;
+    z-index: 5;
     border-bottom-left-radius: 10vw;
     }
 
@@ -951,7 +951,7 @@ h2 {
     display: grid;
     grid-template-rows: repeat (5 auto);
     position: relative;
-    z-index: 5;
+    z-index: 6;
     height: 60%;
     width: 60%;
     top: 15%;
@@ -985,6 +985,81 @@ h2 {
         justify-self: right;
         width: 40%;
         height: 100%;
+    }
+
+    .menuP {
+        display: initial;
+        background-color: var(--color-5);
+        height: 11vw;
+        width: 11vw;
+        position: fixed;
+        top: 0;
+        right: 0;
+        border-bottom-left-radius: 10vw;
+        z-index: 4;
+        overflow: hidden;
+    }
+
+    .fondoMenuP {
+        display: initial;
+        background-color: var(--color-5);
+        height: 11vw;
+        width: 11vw;
+        position: fixed;
+        top: 0;
+        right: 0;
+        border-bottom-left-radius: 10vw;
+        z-index: 3;
+    }
+
+    .menuP2 {
+        display: grid;
+        background-color: var(--color-1);
+        grid-template-rows: 0.5fr repeat(6 , 1fr);
+        row-gap: 2px;
+        align-items: center;
+        justify-items: center;
+        top: 0;
+        right: 0;
+        height: 75vh;
+        width: 100%;
+        position: fixed;
+        border-bottom-left-radius: 3vh;
+        border-bottom-right-radius: 3vh;
+        box-shadow: 0vh 8vh 10vh var(--color-1);
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 1%;
+        z-index: 8;
+        transition:all 0.2s ease-in-out;
+    }
+
+    .menuP2 div {
+        background-color: var(--color-5);
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        line-height: 10vh;
+        border-radius: 1.5vh;
+        border: 0.5vh outset var(--color-5);
+    }
+
+    .menuP2 div:last-child {
+        border-bottom-left-radius: 3vh;
+        border-bottom-right-radius: 3vh;
+    }
+
+    .fondoMenuP2 {
+        display: initial;
+        background-color: var(--color-2);
+        opacity: 85%;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        right: 0;
+        position: fixed;
+        z-index: 7;
+        transition:all 0.15s ease-in-out;
     }
 
     .presentacion {

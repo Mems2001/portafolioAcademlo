@@ -24,15 +24,29 @@
 
     <!-- NAVEGACIÓN DISPOSITIVOS PEQUEÑOS -->
 
-    <nav class="navegadorP">
-        <div class="fondoNav">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+    <nav>
+        <div onclick="mostrarMenu () , mostrarFondo ()" class="navegadorP">
+            <div class="fondoNav">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+        </div>
         </div>
     </nav>
+
+    <div class="menuP" id="menuPeque">
+        <div></div>
+        <div><a class="grande cl7">Home</a></div>
+        <div><a class="grande cl7">Acerca de mi</a></div>
+        <div><a class="grande cl7">Formación</a></div>
+        <div><a class="grande cl7">Habilidades</a></div>
+        <div><a class="grande cl7">Portafolio</a></div>
+        <div><a class="grande cl7">Contacto</a></div>
+    </div>
+
+    <div class="fondoMenuP" id="fondoPeque"></div>
 
     <!-- CONTENEDOR GENERAL-->
 
@@ -165,5 +179,8 @@
     </section>
     <footer></footer>
 </div>
+
+<script src="anim.js"></script>
+
 </body>
 </html>
