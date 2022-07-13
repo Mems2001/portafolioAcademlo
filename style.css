@@ -799,11 +799,11 @@ h2 {
 /* CLASES */
 
 .mcontainer {
-    padding-top: 3.5vw;
+    padding-top: 35px;
 }
 
 .mcontainer2 {
-    height: 5vw;
+    height: 45px;
 }
 
 .presentacion div:nth-child(1) {
