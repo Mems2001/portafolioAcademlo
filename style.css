@@ -1079,8 +1079,8 @@ h2 {
         transition:all 1s ease-in; */
         display: grid;
         background-color: var(--color-5);
-        grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        row-gap: 5px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 0;
         align-items: center;
         justify-items: center;
         height: 11vw;
@@ -1113,8 +1113,8 @@ h2 {
     .menuP2 {
         display: grid;
         background-color: var(--color-1);
-        grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        row-gap: 5px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 2vh;
         align-items: center;
         justify-items: center;
         top: 0;
@@ -1134,19 +1134,21 @@ h2 {
 
     .menuP2 div {
         background-color: var(--color-5);
-        height: 100%;
-        width: 85%;
+        height: 85%;
+        width: 70%;
         text-align: center;
         justify-items: center;
-        line-height: 10vh;
+        line-height: 6.5vh;
         border-radius: 1.5vh;
-        border: 0.5vh outset var(--color-5);
+        border: 0.75vh outset var(--color-5);
     }
 
     .menuP2 div:first-child {
         justify-self: right;
         width: 10%;
+        height: 70%;
         border-radius: 100%;
+        margin-right: 2%;
     }
 
     .menuP2 div:nth-child(2) {
