@@ -180,6 +180,12 @@ html {
     font-size: 1rem;
 }
 
+.card2 {
+    display: grid;
+    height: 150px;
+    width: 250px;
+}
+
 /* FUENTES */
 
 .grande {
@@ -211,7 +217,6 @@ h2 {
     font-size: 1.6rem;
     font-weight: bold;
     justify-self: left;
-    text-decoration: underline;
 }
 
 p {
@@ -370,12 +375,14 @@ p {
     box-shadow: .5vw .5vw 1vw 1vw var(--color-1);
 }
 
-/* .centrarCont {
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    justify-content: center;
-} */
+.portContainer {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    column-gap: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 /* PADDINGS */
 
@@ -527,6 +534,8 @@ p {
     line-height: 40px;
 }
 
+/* IMÁGENES */
+
 .img1 {
     height: 95%;
     width: 95%;
@@ -552,6 +561,15 @@ p {
     height: 8vw;
     width: 8vw;
     justify-self: center;
+}
+
+.imgPort {
+    height: 70%;
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+    box-shadow: 1vw 1vw 1vw 1vw var(--color-1);
+    border-radius: 10%;
 }
 
 .contacto {
@@ -629,6 +647,10 @@ p {
     border-left: 0;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+}
+
+#portafolio {
+    border: 0.3vw outset var(--color-1);
 }
 
 /*--------------------------------------- MEDIA QUERiES --------------------------------- */
@@ -1375,6 +1397,10 @@ h2 {
     display: none;
 }
 
+#acercaDeMi {
+    padding-top: 10%;
+}
+
 #habilidades {
     height: 110vh;
     grid-template-rows: 0.2fr 0.8fr 1fr;
@@ -1386,6 +1412,10 @@ h2 {
 
 #formacion {
     height: 105vh;
+}
+
+#portafolio {
+    height: 50vh;
 }
 
 #barraEspañol {
