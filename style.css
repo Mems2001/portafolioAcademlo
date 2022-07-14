@@ -1256,7 +1256,7 @@ h2 {
     .gridHab {
         display: grid;
         grid-template-columns: repeat(3 , 1fr);
-        padding-top: 12%;
+        padding-top: 20%;
         padding-bottom: 3%;
         justify-items: center;
     }
@@ -1277,7 +1277,7 @@ h2 {
         padding-right: 2%;
         row-gap: 20%;
         overflow: scroll;
-        height: 150px;
+        height: 80%;
         align-items: center;
         padding-top: 10%;
     }
@@ -1348,7 +1348,11 @@ h2 {
     }
 
     .padd5 {
-        padding-top: 12%;
+        padding-top: 10%;
+    }
+
+    .padesp {
+        padding-bottom: 25%;
     }
     
     .margin1 {
@@ -1372,7 +1376,7 @@ h2 {
 }
 
 #habilidades {
-    height: 950px;
+    height: 110vh;
 }
 
 #habilidades > div {
@@ -1380,7 +1384,7 @@ h2 {
 }
 
 #formacion {
-    height: 900px;
+    height: 110vh;
 }
 
 #barraEspañol {
