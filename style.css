@@ -1201,7 +1201,7 @@ h2 {
         grid-template-columns: auto;
         justify-items: center;
         grid-auto-flow: unset;
-        row-gap: 10px;
+        row-gap: 10vh;
     }
     
     .contacto:nth-child(1) {
@@ -1364,7 +1364,11 @@ h2 {
 }
 
 #habilidades {
-    height: 475px;
+    height: 600px;
+}
+
+#formacion {
+    height: 600px;
 }
 
 #barraEspañol {
