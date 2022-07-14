@@ -8,6 +8,11 @@ function mostrarMenu () {
     fondoMenu.className = "fondoMenuP2"
 }
 
+function ocultarMenu () {
+    menu.className = "menuP" ;
+    fondoMenu.className = "fondoMenuP"
+}
+
 // toque.addEventListener ('touchstart' , function (event) {
 //     // if (event.targetTouches.length == 1) {
 //     //     var touch = event.targetTouches[0];

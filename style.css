@@ -1122,8 +1122,9 @@ h2 {
     .menuP2 div {
         background-color: var(--color-5);
         height: 100%;
-        width: 100%;
+        width: 90%;
         text-align: center;
+        justify-items: center;
         line-height: 10vh;
         border-radius: 1.5vh;
         border: 0.5vh outset var(--color-5);
@@ -1155,7 +1156,7 @@ h2 {
         right: 0;
         position: fixed;
         z-index: 7;
-        transition:all 0.1s ease-in-out;
+        transition:all 0.25s ease-in;
     }
 
     .presentacion {
