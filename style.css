@@ -354,7 +354,7 @@ p {
 .gridHab {
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
-    padding-top: 3%;
+    padding-top: 5%;
     padding-bottom: 3%;
     justify-items: center;
 }
@@ -367,7 +367,7 @@ p {
     justify-items: center;
     background-color: var(--color-3);
     border-radius: 100%;
-    box-shadow: 5px 5px 10px 10px var(--color-1);
+    box-shadow: .5vw .5vw 1vw 1vw var(--color-1);
 }
 
 /* .centrarCont {
@@ -573,6 +573,8 @@ p {
     display: grid;
     grid-template-rows: repeat(2 , auto);
     row-gap: 2vw;
+    padding-top:2%;
+    padding-bottom: 1%;
 }
 
 .idiomas2 {
@@ -624,7 +626,7 @@ p {
 /* Identificadores */
 
 #habilidades {
-    height: 650px;
+    height: 700px;
 }
 
 #barraEspañol {
