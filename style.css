@@ -356,13 +356,18 @@ p {
     grid-template-columns: repeat(3 , 1fr);
     padding-top: 3%;
     padding-bottom: 3%;
+    justify-items: center;
 }
 
 .gridHab div {
     display: grid;
     height: 10vw;
+    width: 10vw;
     align-items: center;
     justify-items: center;
+    background-color: var(--color-3);
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px 10px var(--color-1);
 }
 
 /* .centrarCont {
