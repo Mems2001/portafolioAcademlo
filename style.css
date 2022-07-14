@@ -1256,7 +1256,7 @@ h2 {
     .gridHab {
         display: grid;
         grid-template-columns: repeat(3 , 1fr);
-        padding-top: 20%;
+        padding-top: 25%;
         padding-bottom: 3%;
         justify-items: center;
     }
@@ -1377,6 +1377,7 @@ h2 {
 
 #habilidades {
     height: 110vh;
+    grid-template-rows: 0.2fr 0.8fr 1fr;
 }
 
 #habilidades > div {
