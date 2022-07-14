@@ -949,10 +949,12 @@ h2 {
 .card1 {
     display: grid;
     background-color:var(--color-3) ;
-    padding-top: 5px;
-    row-gap: 7px;
+    padding-top: 10px;
+    row-gap: 10px;
     border-radius: 15px;
     width: 50vw;
+    height: 25vh;
+    align-items: center;
 }
 
 .card-body1 {
@@ -960,6 +962,7 @@ h2 {
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 10px;
+    line-height: 3vh ;
 }
 
 .card-body-titles {
@@ -1201,7 +1204,7 @@ h2 {
         grid-template-columns: auto;
         justify-items: center;
         grid-auto-flow: unset;
-        row-gap: 20vh;
+        row-gap: 15vh;
         padding-top: 10vh;
     }
     
@@ -1245,8 +1248,8 @@ h2 {
     }
 
     .img2 {
-        height: 70px;
-        width: 70px;
+        height: 100px;
+        width: 100px;
         align-self: center;
         justify-self: center;
     }
