@@ -157,6 +157,7 @@ html {
     padding-top: 5px;
     row-gap: 10px;
     border-radius: 15px;
+    align-self: center;
 }
 
 .card-body1 {
@@ -213,6 +214,10 @@ section {
     margin: 0 auto;
 }
 
+section:not(#datosP) {
+    height: 100vh;
+}
+
 h2 {
     font-size: 1.6rem;
     font-weight: bold;
@@ -234,7 +239,7 @@ p {
     background-color: var(--color-2);
 }
 
-.mcontainer:not(#contacto):not(#formacion) {
+.mcontainer:not(#formacion) {
     display: grid;
 }
 
@@ -246,13 +251,18 @@ p {
     padding-right: 0px;
     /* justify-items: center; */
     align-items:center;
+    align-content: center;
     
+}
+
+.mcontainer >p {
+    line-height: 5vh;
 }
 
 .mcontainer2 {
 
     display: grid;
-    height: 50px;
+    height: 8vh;
     width: 100%;
 }
 
@@ -304,7 +314,7 @@ p {
 }
 
 .presentacion {
-    height: 37.5vw;
+    height: 88vh;
     width: 100%;
 }
 
@@ -323,8 +333,8 @@ p {
 } */
 
 .foto {
-    height: 27vw;
-    width: 27vw;
+    height: 60vh;
+    width: 60vh;
     background-image: url(https://www.nacionrock.com/wp-content/uploads/phil-anselmo-y-the-illegals-en-lima-e1615984091692.jpg);
     background-size: cover;
     background-position: center;
@@ -338,8 +348,8 @@ p {
 }
 
 .foto:hover {
-    height: 27vw;
-    width: 27vw;
+    height: 60vh;
+    width: 60vh;
     background-image: url(https://wikirock.net/wp-content/uploads/2020/05/14559054692_97127c648a_b-1024x641-1.jpg);
     background-size: cover;
     background-position: center;
@@ -443,7 +453,12 @@ p {
 }
 
 .margin3 {
-    margin-top: 10%;
+    margin-top: 20vh;
+}
+
+.margin4 {
+    margin-top: 5vh;
+   margin-bottom: 15vh;
 }
 
 .nmargin {
@@ -517,9 +532,9 @@ p {
 
 .hdr1 {
     background-color: var(--color-2);
-    height: 50px;
+    height: 8vh;
     text-align: center;
-    line-height: 50px;
+    line-height: 8vh;
     transition: all 0.2s ease-in-out;
     
 }
@@ -531,7 +546,7 @@ p {
     width: 80%;
     align-self: center;
     justify-self: center;
-    line-height: 40px;
+    line-height: 7vh;
 }
 
 /* IMÁGENES */
@@ -577,6 +592,7 @@ p {
     grid-template-rows: auto;
     justify-items: center;
     grid-auto-flow: unset;
+    align-self: center;
 }
 
 .contacto:nth-child(1) {
@@ -637,10 +653,6 @@ p {
 
 /* Identificadores */
 
-#habilidades {
-    height: 700px;
-}
-
 #barraEspañol {
     background-color: var(--color-6);
     border: 4px solid var(--color-2);
@@ -651,6 +663,20 @@ p {
 
 #portafolio {
     border: 0.3vw outset var(--color-1);
+    height: 80vh !important;
+}
+
+#contacto {
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-columns: 0;
+}
+
+#contacto>div:nth-child(1) {
+    grid-row: 1;
+}
+
+#contacto>div:nth-child(2) {
+    grid-row: 2;
 }
 
 /*--------------------------------------- MEDIA QUERiES --------------------------------- */
