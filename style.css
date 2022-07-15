@@ -588,6 +588,10 @@ p {
     z-index: 3;
 }
 
+.zind8 {
+    z-index: 8;
+}
+
 /* DIVS INTERNOS */
 
 .hdr {
@@ -1143,25 +1147,9 @@ h2 {
     height: 100vh !important;
 }
 
-#habilidades {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 1fr;
-    column-gap: 2vw;
-}
-
-#habilidades>div:nth-child(1) {
-    grid-row: 1;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-#habilidades>div:nth-child(2) {
-    height: 60%;
-}
-
 #habilidades>div:nth-child(3) {
-    height:60%;
-    line-height: 9vh;
+    height: 23vh;
+    line-height: 2vh;
 }
 
 #portafolio {
@@ -1187,6 +1175,31 @@ h2 {
 #contacto>div:nth-child(3) {
     grid-row: 3;
 }
+
+}
+
+@media screen and (max-height:475px) {
+    
+    #habilidades {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr;
+        column-gap: 2vw;
+    }
+    
+    #habilidades>div:nth-child(1) {
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    #habilidades>div:nth-child(2) {
+        height: 60%;
+    }
+    
+    #habilidades>div:nth-child(3) {
+        height:60%;
+        line-height: 9vh;
+    }
 
 }
 
