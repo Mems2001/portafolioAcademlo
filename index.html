@@ -171,9 +171,9 @@
 
     <!-- Contacto -->
 
-    <section class="mcontainer cb2 padd4 pestaticac" id="contacto">
+    <section class="mcontainer cb2 padd4 prelativa" id="contacto">
         <div><h2 class="cl7">Contacto</h2></div>
-        <div class="container contacto cl7">
+        <!-- <div class="container contacto cl7">
             <div>
                 
                 <div class="card1">
@@ -194,11 +194,24 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+
         <div class="contFormulario prelativa">
-            <div>Nombre</div>
-            <div>Correo</div>
-            <div>Mensaje</div>
+            <form id="form" class="form">
+                <div class="form-group">
+                  <label for="name" class="cl8">Nombre</label>
+                  <input type="text" id="name" class="form-control" placeholder="Ingresa tu nombre">
+                </div>
+                <div class="form-group">
+                  <label for="email" class="cl8">Correo</label>
+                  <input type="email" id="email" class="form-control" placeholder="Ingresa tu correo">
+                </div>
+                <div class="form-group">
+                  <label for="message" class="cl8">Mensaje</label>
+                  <textarea id="message" class="form-control" placeholder="Deja tu mensaje aquí" rows="10"></textarea>
+                </div>
+                <input type="submit" class="btn-form" value="Enviar" />
+              </form>
         </div>
     </section>
     <footer></footer>
