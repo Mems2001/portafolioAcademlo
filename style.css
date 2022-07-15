@@ -1350,7 +1350,7 @@ h2 {
     .menuP2 div {
         background-color: var(--color-5);
         height: 85%;
-        width: 70%;
+        width: 45%;
         text-align: center;
         justify-items: center;
         line-height: 6.5vh;
@@ -1390,7 +1390,7 @@ h2 {
     }
 
     .presentacion {
-        height: 60vh;
+        height: 62vh;
         width: 100%;
     }
     
