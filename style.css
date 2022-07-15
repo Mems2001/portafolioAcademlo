@@ -270,13 +270,14 @@ p {
 }
 
 .mcontainer >p {
-    line-height: 5vh;
+    line-height: 3vh;
+    font-size: 1rem;
 }
 
 .mcontainer2 {
 
     display: grid;
-    height: 8vh;
+    height: 6vh;
     width: 100%;
 }
 
@@ -328,7 +329,7 @@ p {
 }
 
 .presentacion {
-    height: 88vh;
+    height: 57vh;
     width: 100%;
 }
 
@@ -347,8 +348,8 @@ p {
 } */
 
 .foto {
-    height: 60vh;
-    width: 60vh;
+    height: 45vh;
+    width: 45vh;
     background-image: url(https://www.nacionrock.com/wp-content/uploads/phil-anselmo-y-the-illegals-en-lima-e1615984091692.jpg);
     background-size: cover;
     background-position: center;
@@ -362,8 +363,8 @@ p {
 }
 
 .foto:hover {
-    height: 60vh;
-    width: 60vh;
+    height: 45vh;
+    width: 45vh;
     background-image: url(https://wikirock.net/wp-content/uploads/2020/05/14559054692_97127c648a_b-1024x641-1.jpg);
     background-size: cover;
     background-position: center;
@@ -451,6 +452,7 @@ p {
     align-items: center;
     height: 100%;
     width: 100%;
+    padding-top: 5vh;
 }
 
 /* PADDINGS */
@@ -470,8 +472,8 @@ p {
 }
 
 .padd4 {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .padd5 {
@@ -512,7 +514,7 @@ p {
 }
 
 .margin3 {
-    margin-top: 20vh;
+    margin-top: 25vh;
 }
 
 .margin4 {
@@ -591,9 +593,9 @@ p {
 
 .hdr1 {
     background-color: var(--color-2);
-    height: 8vh;
+    height: 6vh;
     text-align: center;
-    line-height: 8vh;
+    line-height: 6vh;
     transition: all 0.2s ease-in-out;
     
 }
@@ -605,7 +607,7 @@ p {
     width: 80%;
     align-self: center;
     justify-self: center;
-    line-height: 7vh;
+    line-height: 5vh;
 }
 
 /* IMÁGENES */
@@ -675,12 +677,12 @@ p {
 .form-group {
     display: flex;
     flex-direction: column;
-    gap: 1vh;
+    gap: 1.5vh;
     margin-bottom: 2vh;
   }
 
 .form-control {
-    padding: 15px;
+    padding: 1vh;
     font-size: 1rem;
     background-color: var(--color-4);
     border: 1px solid transparent;
@@ -697,7 +699,7 @@ p {
   }
   
   .btn-form {
-    padding: 15px;
+    padding: 1vh;
     background-color:var(--color-4);
     border: 1px solid transparent;
     border-radius: 8px;
@@ -769,6 +771,10 @@ p {
     border-bottom-right-radius: 50px;
 }
 
+#acercaDeMi {
+    height: 37vh !important;
+}
+
 #portafolio {
     border: 0.3vw outset var(--color-1);
     height: 85vh !important;
@@ -796,27 +802,6 @@ p {
 /* Dispositivos grandes (quizá 1280px) */
 
 @media screen and (max-width: 2000px) {  
-
-    /* .navegadorP {
-        display: none;
-        background-color: var(--color-7);
-        height: 12vw;
-        width: 12vw;
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 4;
-        border-bottom-left-radius: 7vw;
-    }
-    
-    .fondoNav {
-        display: none;
-        background-size:cover;
-        position: relative;
-        z-index: 5;
-        top: 10%;
-        right: -5%;
-    } */
 
 }
 
@@ -890,29 +875,33 @@ h2 {
 /* CLASES */
 
 .mcontainer {
-    padding-top: 35px;
+    padding-top: 5vh;
+}
+
+.mcontainer p {
+    line-height: 3vh;
 }
 
 .mcontainer2 {
 
     display: grid;
-    height: 45px;
+    height: 6vh;
     width: 100%;
 }
 
 .hdr1 {
     background-color: var(--color-2);
-    height: 45px  ;
+    height: 6vh  ;
     text-align: center;
-    line-height: 45px;
+    line-height: 6vh;
 }
 
 .hdr1:hover {
-    line-height: 35px;
+    line-height: 5vh;
 }
 
     .presentacion {
-        height: 35vw;
+        height: 59vh;
         width: 100%;
     }
     
@@ -931,8 +920,8 @@ h2 {
     } */
     
     .foto {
-        height: 30vw;
-        width: 30vw;
+        height: 40vh;
+        width: 40vh;
         background-image: url(https://www.nacionrock.com/wp-content/uploads/phil-anselmo-y-the-illegals-en-lima-e1615984091692.jpg);
         background-size: cover;
         background-position: center;
@@ -946,8 +935,8 @@ h2 {
     }
     
     .foto:hover {
-        height: 30vw;
-        width: 30wv;
+        height: 40vh;
+        width: 40vh;
         background-image: url(https://wikirock.net/wp-content/uploads/2020/05/14559054692_97127c648a_b-1024x641-1.jpg);
         background-size: cover;
         background-position: center;
@@ -958,10 +947,6 @@ h2 {
         left: 0;
         top:0vh;
         /* bottom: 15vh; */
-    }
-
-    .idiomas2 {
-        height: 3.5vw;
     }
 
     .margin2 {
@@ -976,8 +961,32 @@ h2 {
 
     /* IDENTIFICADORES */
 
-    
+    #acercaDeMi {
+        height: 35vh !important;
+    }
 
+    #portafolio {
+        border: 0.3vw outset var(--color-1);
+        height: 85vh !important;
+
+    }
+    
+    #contacto {
+        grid-template-rows: 0.25fr 0.25fr 1fr;
+        grid-template-columns: 0;
+    }
+    
+    #contacto>div:nth-child(1) {
+        grid-row: 1;
+    }
+    
+    #contacto>div:nth-child(2) {
+        grid-row: 2;
+    }
+    
+    #contacto>div:nth-child(3) {
+        grid-row: 3;
+    }
 }
 
 /* Dispositivos medianos (antes 767)----------------------------------------------------------------------*/
@@ -1019,19 +1028,19 @@ h2 {
  /* FUENTES */
 
 .grande {
-    font-size: 1rem;
-}
-
-.muygrande {
     font-size: 1.5rem;
 }
 
+.muygrande {
+    font-size: 2rem;
+}
+
 .peque {
-    font-size: 0.6rem;
+    font-size: 0.75rem;
 }
 
 .normal {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
 }   
 
 /* TIPOS */
@@ -1051,7 +1060,11 @@ h2 {
 }
 
 .mcontainer2 {
-    height: 45px;
+    height: 6vh;
+}
+
+.presentacion {
+    height: 57vh;
 }
 
 .presentacion div:nth-child(1) {
@@ -1068,13 +1081,19 @@ h2 {
     position: absolute;
 }
 
+.foto {
+    height: 45vh;
+    width: 45vh;
+}
+
+.foto:hover {
+    height: 45vh;
+    width: 45vh;
+}
+
 /* .presentacion div:nth-child(3) {
     
 } */
-
-.idiomas2 {
-    height: 4vw;
-}
 
 .margin1 {
     margin-left: 0;
@@ -1094,10 +1113,40 @@ h2 {
 /* Divs Internos */
 
 .hdr1 {
-    height: 45px;
-    line-height: 45px;
+    height: 6vh;
+    line-height: 6vh;
 }
-    
+ 
+/* IDENTIFICADORES */
+
+#acercaDeMi {
+    height: 35vh !important;
+}
+
+#portafolio {
+    border: 0.3vw outset var(--color-1);
+    height: 85vh !important;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#contacto {
+    grid-template-rows: 0.25fr 0.25fr 1fr;
+    grid-template-columns: 0;
+}
+
+#contacto>div:nth-child(1) {
+    grid-row: 1;
+}
+
+#contacto>div:nth-child(2) {
+    grid-row: 2;
+}
+
+#contacto>div:nth-child(3) {
+    grid-row: 3;
+}
+
 }
 
 /* Dispositivos pequeños (antes 480)--------------------------------------------------------------*/ 
@@ -1221,6 +1270,10 @@ h2 {
         justify-self: right;
         width: 40%;
         height: 100%;
+    }
+
+    .mcontainer p {
+        line-height: 2vh;
     }
 
     .menuP {
@@ -1535,12 +1588,8 @@ h2 {
     display: none;
 }
 
-#acercaDeMi {
-    padding-top: 10%;
-}
-
 #habilidades {
-    height: 110vh;
+    /* height: 110vh; */
     grid-template-rows: 0.2fr 0.8fr 1fr;
 }
 
@@ -1548,13 +1597,9 @@ h2 {
     height: 80%;
 }
 
-#formacion {
+/* #formacion {
     height: 105vh;
-}
-
-#portafolio {
-    height: 50vh;
-}
+} */
 
 #barraEspañol {
     background-color: var(--color-6);
@@ -1565,8 +1610,36 @@ h2 {
     grid-column: 4;
 }
     
+#acercaDeMi {
+    height: 32vh !important;
 }
 
+#portafolio {
+    border: 0.3vw outset var(--color-1);
+    height: 85vh !important;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#contacto {
+    grid-template-rows: 0.25fr 0.25fr 1fr;
+    grid-template-columns: 0;
+}
+
+#contacto>div:nth-child(1) {
+    grid-row: 1;
+}
+
+#contacto>div:nth-child(2) {
+    grid-row: 2;
+}
+
+#contacto>div:nth-child(3) {
+    grid-row: 3;
+}
+
+}
+/* 
 * {
     border: 1px var(--lcolor-1) solid;
-}
+} */
