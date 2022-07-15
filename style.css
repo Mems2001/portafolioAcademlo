@@ -183,7 +183,6 @@ html {
 
 .card2 {
     display: grid;
-    grid-template-columns: repeat(autofill , fr);
     position: relative;
     height: 30vh;
     width: 30%;
@@ -277,6 +276,12 @@ p {
 .mcontainer2 {
 
     display: grid;
+    height: 6vh;
+    width: 100%;
+}
+
+.mcontainer3 {
+    display: none;
     height: 6vh;
     width: 100%;
 }
@@ -417,12 +422,12 @@ p {
 }
 
 .portContainer>div:nth-child(1) {
-    left: 10%;
+    left: 5%;
     z-index: 5;
 }
 
 .portContainer div:nth-child(2) {
-    left: 22.5%;
+    left: 20%;
     z-index: 4;
 }
 
@@ -432,20 +437,22 @@ p {
 }
 
 .portContainer div:nth-child(4) {
-    left: 47.5%;
+    left: 50%;
     z-index: 2;
 }
 
 .portContainer div:nth-child(5) {
-    left: 60%;
+    left: 65%;
     z-index: 1;
 }
 
-.portContainer div:hover {
+.card2:hover {
     top: 30%;
     filter: none;
     transform: none;
-    z-index: 6;
+    height: 35vh;
+    width: 35%;
+    z-index: 6 !important;
 }
 
 .contFormulario {
@@ -1059,12 +1066,21 @@ h2 {
     padding-top: 35px;
 }
 
+.mcontainer>p {
+    line-height: 5vh;
+}
+
 .mcontainer2 {
+    display: none;
     height: 6vh;
 }
 
+.mcontainer3 {
+    display: grid;
+}
+
 .presentacion {
-    height: 57vh;
+    height: 90vh;
 }
 
 .presentacion div:nth-child(1) {
@@ -1082,13 +1098,13 @@ h2 {
 }
 
 .foto {
-    height: 45vh;
-    width: 45vh;
+    height: 65vh;
+    width: 65vh;
 }
 
 .foto:hover {
-    height: 45vh;
-    width: 45vh;
+    height: 65vh;
+    width: 65vh;
 }
 
 /* .presentacion div:nth-child(3) {
@@ -1099,6 +1115,10 @@ h2 {
     margin-left: 0;
     margin-right: 0;
 }
+
+.margin3 {
+    margin-top: 10vh
+};
 
 .padd4 {
     padding-left: 7vw;
@@ -1120,7 +1140,28 @@ h2 {
 /* IDENTIFICADORES */
 
 #acercaDeMi {
-    height: 35vh !important;
+    height: 100vh !important;
+}
+
+#habilidades {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
+    column-gap: 2vw;
+}
+
+#habilidades>div:nth-child(1) {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#habilidades>div:nth-child(2) {
+    height: 60%;
+}
+
+#habilidades>div:nth-child(3) {
+    height:60%;
+    line-height: 9vh;
 }
 
 #portafolio {
@@ -1223,6 +1264,10 @@ h2 {
 }
 
 /* CLASES */
+
+.mcontainer3 {
+    display: none;
+}
 
     .navegadorP {
     display: grid;
@@ -1477,7 +1522,7 @@ h2 {
     .gridHab {
         display: grid;
         grid-template-columns: repeat(3 , 1fr);
-        padding-top: 25%;
+        padding-top: 10%;
         padding-bottom: 3%;
         justify-items: center;
     }
@@ -1505,7 +1550,7 @@ h2 {
 
     .idiomas2 {
         display: grid;
-        grid-template-rows: 0.2fr 2fr;
+        grid-template-rows: 0.1fr 1fr;
         grid-template-columns: 1fr 1fr;
         align-items: center;
         justify-items: center;
@@ -1606,11 +1651,18 @@ h2 {
         z-index: 1;
     }
     
-    .portContainer div:hover {
-        left: 30%;
+    .card2 {
+        height: 20%;
+        width: 40vw;
+    }
+
+    .card2:hover {
+        left: 20% !important;
         filter: none;
         transform: none;
-        z-index: 6;
+        height: 25%;
+        width: 55vw;
+        z-index: 6 !important;
     }
 
     .card2 {
@@ -1668,11 +1720,26 @@ h2 {
 
 #habilidades {
     /* height: 110vh; */
+    grid-template-columns: none;
     grid-template-rows: 0.2fr 0.8fr 1fr;
+    column-gap: 0;
 }
 
-#habilidades > div {
-    height: 80%;
+#habilidades>div:nth-child(1) {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#habilidades>div:nth-child(2) {
+    height: 20vh;
+    grid-row: 2;
+}
+
+#habilidades>div:nth-child(3) {
+    height: 25vh;
+    grid-row: 3;
+    line-height: 1vh;
 }
 
 /* #formacion {
