@@ -1552,8 +1552,7 @@ h2 {
         padding-left:2%;
         padding-right: 2%;
         row-gap: 20%;
-        overflow: scroll;
-        height: 80%;
+        height: 75%;
         align-items: center;
         padding-top: 10%;
     }
@@ -1747,7 +1746,7 @@ h2 {
 }
 
 #habilidades>div:nth-child(3) {
-    height: 25vh;
+    height: 27vh;
     grid-row: 3;
     line-height: 1vh;
 }
