@@ -1203,7 +1203,11 @@ h2 {
 }
 
 .normal {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.mcontainer>p {
+    font-size: 0.75rem;
 }
 
 /* TIPOS */
@@ -1582,6 +1586,10 @@ h2 {
         margin-bottom: 0px;
     }
 
+    .margin3 {
+        margin: 0;
+    }
+
     .gap1 {
         row-gap: 4%;
     }
@@ -1590,6 +1598,10 @@ h2 {
 
 #navegacion {
     display: none;
+}
+
+#formacion {
+    margin-top: 5vh;
 }
 
 #habilidades {
