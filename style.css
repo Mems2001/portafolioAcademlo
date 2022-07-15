@@ -1203,7 +1203,7 @@ h2 {
 }
 
 .normal {
-    font-size: 0.75rem;
+    font-size: 0.5rem;
 }
 
 /* TIPOS */
@@ -1390,7 +1390,7 @@ h2 {
     }
 
     .presentacion {
-        height: 68vh;
+        height: 60vh;
         width: 100%;
     }
     
